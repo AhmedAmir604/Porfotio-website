@@ -19,7 +19,7 @@ function AboutMe() {
       }}
       id="about"
     >
-      <Heading children="About me"></Heading>
+      <Heading>About Me</Heading>
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
