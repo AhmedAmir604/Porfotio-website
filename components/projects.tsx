@@ -10,7 +10,7 @@ function Projects() {
   const customRef = useHooks(0.4, "Projects");
   return (
     <section ref={customRef} id="projects" className="scroll-mt-28 mb-28">
-      <Heading>Projects</Heading>
+      <Heading>My Projects</Heading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
