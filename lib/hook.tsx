@@ -12,6 +12,6 @@ export function useHooks(threshold = 0.5, place: sectionName) {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSelection(place);
     }
-  }, [inView, setActiveSelection, timeOfLastClick]);
+  }, [inView, setActiveSelection, timeOfLastClick, place]);
   return ref;
 }

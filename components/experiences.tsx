@@ -15,6 +15,8 @@ import { useThemeContextProvider } from "@/context-provider/theme-context";
 export default function Experiences() {
   const customRef = useHooks(0.3, "Experience");
   const { theme } = useThemeContextProvider();
+  const { ref, inView } = useInView();
+
   return (
     <section
       ref={customRef}
@@ -24,7 +26,6 @@ export default function Experiences() {
       <Heading>Experiences</Heading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => {
-          const { ref, inView } = useInView();
           return (
             <div key={index} ref={ref} className="vertical-timeline-element">
               <VerticalTimelineElement

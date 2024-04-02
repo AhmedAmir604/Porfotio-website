@@ -51,9 +51,8 @@ export default function ThemeContextProvider({ children }: props) {
 
 export const useThemeContextProvider = () => {
   const context = useContext(themeContext);
-  if (context) {
-    return context;
-  } else {
-    throw new Error("No theme context");
+  if (context == null) {
+    throw new Error("Cannot create theme context");
   }
+  return context;
 };
