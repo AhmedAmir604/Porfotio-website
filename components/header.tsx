@@ -22,7 +22,7 @@ const Header = () => {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
       <nav
-        className="flex w-full fixed top-[-6.15rem] left-1/2 h-12 -translate-x-1/2 py-2 
+        className="flex fixed top-[-6.15rem] left-1/2 h-12 -translate-x-1/2 py-2 
       sm:top-[-4.2rem] sm:h-[initial] sm:py-0 "
       >
         <ul className="flex flex-wrap w-[22rem] justify-center align-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
