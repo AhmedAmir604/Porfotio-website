@@ -9,7 +9,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const SendEmail = async (formData: FormData) => {
   console.log(formData.get("senderEmail"));
-  console.log(formData.get("message"));
+  console.log(formData.get("Message"));
   const email = formData.get("senderEmail");
   const message = formData.get("message");
 
