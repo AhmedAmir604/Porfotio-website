@@ -15,7 +15,7 @@ import { useThemeContextProvider } from "@/context-provider/theme-context";
 export default function Experiences() {
   const customRef = useHooks(0.3, "Experience");
   const { theme } = useThemeContextProvider();
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
     <section

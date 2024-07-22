@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import freightHub from "@/public/freightHub.png";
 
 export const links = [
   {
@@ -35,32 +36,39 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelors in Computer Science",
+    location: "Univeristy of Management and Technology",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am a passionate student of BSCS with lean towards CyberSecurity.",
     icon: <LuGraduationCap />,
-    date: "2019",
+    date: "2024-present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Creative StoryBoard Writer",
+    location: "Fiverr",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a story board writer for 6 months where i learn about creative and eye catching animations for instagram reels.",
     icon: <CgWorkAlt />,
-    date: "2019 - 2021",
+    date: "2023-2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Website Developer",
+    location: "Fiverr",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a website developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind. I'm open to full-time opportunities.",
     icon: <FaReact />,
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Freight Hub",
+    description:
+      "A website for a trucking agency with multiple pages beautiful custom sliders and contact form.",
+    tags: ["React", "Next.js", "Resend", "Tailwind", "Framer", "Vercel"],
+    imageUrl: freightHub,
+  },
   {
     title: "CorpComment",
     description:
@@ -94,14 +102,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "MS SQL",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
