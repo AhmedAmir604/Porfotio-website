@@ -10,6 +10,7 @@ import SubmitBtn from "./submit-btn";
 
 export default function ContactMe() {
   const customRef = useHooks(0.7, "Contact");
+
   return (
     <motion.section
       ref={customRef}
