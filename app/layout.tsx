@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="./icon.jpg"></link>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36  dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
